@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(Images/basketball-pitch.webp);
+    background-size: cover; 
+}
+
+.container {
+    width: 575px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    margin: 35px auto 0px auto;
+    padding-top: 15px;
+    background-color: #621922;
+    color: #f1f1f1;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 5px solid #f1f1f1;
+    opacity: 96%;
+}
+
+.score-box {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    font-size: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 100pt;
+    margin-top: -65px;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #f1f1f1;
+    background-color: #af192b;
+    border: 2px solid #c4bdbd;
+    width: 155px;
+    border-radius: 3px;
+    padding: 7px 5px;
+    width: 43px;
+    font-size: 15px;
+}
+
+.point-btn {
+    margin-top: 20px;
+    width: 155px;
+    height: 120px;
+}
+
+#ng-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: end;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px;
+    background-color: #af192b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
